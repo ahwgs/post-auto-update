@@ -1,0 +1,298 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+big,
+blockquote,
+body,
+caption,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figure,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+iframe,
+ins,
+kbd,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+tt,
+ul,
+var {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-size: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+button,
+input,
+textarea {
+  -webkit-appearance: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: Merriweather, Open Sans, Hiragino Sans GB, Microsoft YaHei,
+    Helvetica, Arial, sans-serif;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+body {
+  font-family: Merriweather, Open Sans, Hiragino Sans GB, Microsoft YaHei,
+    STHeiti, WenQuanYi Micro Hei, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.8;
+  margin: 0 auto;
+  color: #555;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+
+table {
+  width: 100%;
+  overflow: auto;
+  display: table;
+  font-size: 14px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  word-break: normal;
+  word-wrap: normal;
+  table-layout: fixed;
+}
+
+table th {
+  font-weight: 700;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 6px 13px;
+  text-align: center;
+}
+
+caption,
+td,
+th {
+  text-align: left;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: '';
+}
+
+blockquote,
+q {
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  quotes: none;
+}
+
+blockquote {
+  border-left: 3px solid rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  letter-spacing: 0.01rem;
+  margin: 30px 0;
+  padding-left: 10px;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+pre {
+  position: relative;
+  margin: 20px 0;
+}
+
+code,
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  border-radius: 3px;
+}
+
+code {
+  padding: 2px 4px;
+  font-size: 13px;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 3px;
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+pre code {
+  font-size: 13px;
+  line-height: 20px;
+  display: block;
+  overflow: auto;
+  border: 0;
+  margin: 0;
+  padding: 10px;
+  color: #313131;
+  background-color: #f7f7f7;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+time {
+  font-size: 13px;
+  color: #657786;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 19px;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+input[disabled] {
+  cursor: default;
+  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #cccccc;
+}
+
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+.pr {
+  position: relative;
+}
+
+.pf {
+  position: fixed;
+}
+
+.pa {
+  position: absolute;
+}

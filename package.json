@@ -1,0 +1,17 @@
+{
+  "name": "autoUpdateMD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "ah_wgs@126.com",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "marked": "^0.8.0",
+    "simple-git": "^1.132.0"
+  }
+}
