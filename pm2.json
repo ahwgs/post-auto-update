@@ -1,0 +1,22 @@
+{
+  "apps": [
+    {
+      "name": "post-auto-update",
+      "exec_interpreter": "node",
+      "script": "./index.js",
+      "exec_mode": "fork",
+      "max_memory_restart": "500M",
+      "autorestart": true,
+      "node_args": [],
+      "watch": false,
+      "error_file": "./test-err.log",
+      "out_file": "./test-out.log",
+      "pid_file": "./test.pid",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "min_uptime": "60s",
+      "max_restarts": 30
+    }
+  ]
+}
