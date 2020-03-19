@@ -32,7 +32,7 @@ app.get('/', async (req, res) => {
 });
 
 // github钩子触发接口 clone 最新的文件
-app.get('/update', async function(req, res) {
+app.post('/update', async function(req, res) {
   await fsUtils.downloadFileToLocalPath(
     config.fileUrl,
     './src/data',
