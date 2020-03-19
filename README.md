@@ -10,5 +10,5 @@
 #### todo
 
 - [x] 使用`ejs`静态页面直出
-- [ ] 完成`github webhook`自动更新
+- [x] 完成`github webhook`自动更新
 - [ ] 同步博客功能...
