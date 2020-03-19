@@ -53,8 +53,19 @@ const downloadFileToLocalPath = (url, dirPath, fileName) => {
   });
 };
 
+const deleteFile = filePath => {
+  return new Promise((resolve, reject) => {
+    fs.unlink(filePath, err => {
+      if (err) reject(err);
+      console.log(`${filePath}文件已删除`);
+      resolve('文件已删除');
+    });
+  });
+};
+
 module.exports = {
   checkFileAccess,
   readMdFile,
-  downloadFileToLocalPath
+  downloadFileToLocalPath,
+  deleteFile
 };

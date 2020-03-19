@@ -33,6 +33,10 @@ app.get('/', async (req, res) => {
 
 // github钩子触发接口 clone 最新的文件
 app.post('/update', async function(req, res) {
+  const isExit = await fsUtils.checkFileAccess(filePath);
+  if (isExit) {
+    await fsUtils.deleteFile(filePath);
+  }
   await fsUtils.downloadFileToLocalPath(
     config.fileUrl,
     './src/data',
