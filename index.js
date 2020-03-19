@@ -41,6 +41,7 @@ app.get('/update', async function(req, res) {
   console.log('md file updated');
   res.json({
     code: 0,
+    data: `更新时间:${new Date().getTime()}`,
     msg: 'success'
   });
 });
